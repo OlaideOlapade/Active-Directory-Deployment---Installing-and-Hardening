@@ -1,4 +1,4 @@
-# Active Directory Deployment Documentation
+# Active Directory Deployment
 
 Company Name: Nymous-Technologies
 
