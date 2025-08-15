@@ -19,7 +19,7 @@ Server Name: Nymous-Technologies
 2.	Click Manage > Add Roles and Features.
 3.	In the wizard:
    - Select Role-based or feature-based installation.
-   - Select the local server (Nymous-Technologies).
+   - Select the local server.
    - Choose the following roles:
      - Active Directory Domain Services
      - DNS Server
@@ -32,11 +32,10 @@ Server Name: Nymous-Technologies
 
 6.	In Server Manager, click the notification flag and choose Promote this server to a domain controller.
 7.	Select:
-   - Add a new forest
-   - Root domain name: nymoustechnologies.local
+   - Add a new forest: nymoustechnologies.local
 8.	Set Directory Services Restore Mode (DSRM) password.
-9.	Accept default selections for DNS and NetBIOS.
-10.	Review and click Install.
+9.	Ignore default selections for DNS and NetBIOS.
+10.	Review and click Next.
 11.	Server will reboot to complete the promotion.
 
 ## 3. Creating Organizational Units (OUs), Groups, and Users
